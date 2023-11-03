@@ -1,0 +1,105 @@
+body{
+    background: url("student.jpg.jpg") no-repeat fixed center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    }
+    #navbar{
+        display: flex;
+        
+        top: 0px;
+        
+    }
+    #navbar ul{
+        display: flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    #navbar::before{
+        content: "";
+        background-color:black;
+      /*  position: absolute;*/
+        height: 100%;
+        width:100% ;
+        z-index: -1;
+        opacity:0.1;
+    }
+    #navbar ul li{
+        color: rgb(43, 116, 4);
+        list-style:none ;
+        font-size:1.0rem ;
+        
+    
+    }
+    #navbar ul li a{
+        display: block;
+        padding:13px 22px ;
+        border-radius:10px ;
+        text-decoration: none;
+        color: black;
+        
+    }
+    #navbar ul li a:hover{
+        color: black;
+        background-color:rgb(139, 134, 134);
+        
+    
+    }
+    .container{
+        padding: 20px;
+        margin: 30px auto;
+    
+    
+    }
+    button{
+        cursor: pointer;
+        border-radius: 32px;
+        text-shadow: rgb(179, 169, 169);
+    
+    }
+    @media (max-width:1437px) {
+        .container{
+            margin: 0;
+        }
+    }
+    @media (max-width:550px) {
+        body{
+            height: fit-content;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 0%;
+        }
+    }
+    @media (max-width:600px) {
+        #navbar::before{
+            display:inline;
+            align-items: center;
+            
+            background-size: cover;
+            height: 50%;
+            width: 60%;
+            position: absolute;
+        }
+        
+    }
+    @media  (max-width:1203px) {
+        body{
+            background: url("student.jpg.jpg") no-repeat fixed center;
+            /* margin: 0;
+            padding: 0;
+            height: 100%; */
+            width: 100%;
+            background-size: cover;
+    
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
+    
